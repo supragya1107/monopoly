@@ -582,3 +582,4 @@ def game():
             if i>=no_of_players:
                 i=0
 
+globals(game())                
