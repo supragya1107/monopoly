@@ -3,7 +3,6 @@ This is a short code written for the game.
 Game asks for the number of players in the beginning.
 You should choose more than one player.
 MADE BY-SUPRAGYA UPADHYAY :)
-To start, execute the function game().
 """
 
 ###############################################################################
@@ -582,4 +581,5 @@ def game():
             if i>=no_of_players:
                 i=0
 
-globals(game())                
+if __name__=="__main__":
+    game()
